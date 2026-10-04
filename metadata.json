@@ -1,0 +1,6 @@
+{
+  "name": "J1 Connect - Work & Travel USA Platform",
+  "description": "Clean, structured discovery and social network for J-1 Work & Travel students, recruitment agencies, and US employers. Features official agency directories, verified employer hub, interactive Leaflet discovery map, ROI calculator, and community spaces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

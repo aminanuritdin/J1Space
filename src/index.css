@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #000000;
+    color: #E7E9EA;
+  }
+}
+
+/* Custom scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #2F3336;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #71767B;
+}
+
+/* Leaflet Marker Cluster X Dark Theme styling */
+.marker-cluster-small {
+  background-color: rgba(29, 155, 240, 0.25) !important;
+}
+.marker-cluster-small div {
+  background-color: #1D9BF0 !important;
+  color: #FFFFFF !important;
+  font-weight: 800 !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  border: 2px solid #000000 !important;
+}
+
+.marker-cluster-medium {
+  background-color: rgba(0, 186, 124, 0.25) !important;
+}
+.marker-cluster-medium div {
+  background-color: #00BA7C !important;
+  color: #FFFFFF !important;
+  font-weight: 800 !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  border: 2px solid #000000 !important;
+}
+
+.marker-cluster-large {
+  background-color: rgba(249, 24, 128, 0.25) !important;
+}
+.marker-cluster-large div {
+  background-color: #F91880 !important;
+  color: #FFFFFF !important;
+  font-weight: 800 !important;
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  border: 2px solid #000000 !important;
+}
+
+/* Custom Tooltip in Leaflet */
+.leaflet-popup-content-wrapper {
+  background: #16181C !important;
+  color: #E7E9EA !important;
+  border: 1px solid #2F3336 !important;
+  border-radius: 1rem !important;
+}
+.leaflet-popup-tip {
+  background: #16181C !important;
+}
